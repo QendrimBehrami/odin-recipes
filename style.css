@@ -20,11 +20,12 @@ h2 {
 }
 
 img {
-  width: 30%;
-  max-width: 100%; /* Ensure the image does not exceed its natural size */
+  /* width: 40%; */
+  max-width: 30%; /* Ensure the image does not exceed its natural size */
   height: auto; /* Maintain the image's aspect ratio */
   margin: 0 auto;
   display: block;
+  min-width: 300px;
 }
 
 .Description {
@@ -32,6 +33,7 @@ img {
   box-sizing: border-box;
   width: 30%;
   margin: 0 auto;
+  min-width: 300px;
 }
 
 .Ingredients {
@@ -39,6 +41,7 @@ img {
   box-sizing: border-box;
   width: 20%;
   margin: 0 auto;
+  min-width: 300px;
 }
 
 .Steps {
@@ -46,6 +49,7 @@ img {
   box-sizing: border-box;
   width: 30%;
   margin: 0 auto;
+  min-width: 300px;
 }
 
 .Overview {
